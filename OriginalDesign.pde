@@ -15,10 +15,22 @@ void draw()
 
 void lines()
 {
-  textSize(18);
-  fill(0);
-  textAlign(CENTER);
-  text("Space to Clear, Click to Draw", 200, 20);
+  if (keyPressed)
+  {
+    if (key == ' ')
+    {
+      background(255);
+      stroke(0);
+      fill(0);
+      textSize(18);
+      text("Space to Clear, Click to Draw", 200, 20);
+      textAlign(CENTER);
+    }
+  }
+  // textSize(18);
+  // fill(0);
+  // textAlign(CENTER);
+  // text("Space to Clear, Click to Draw", 200, 20);
 }
 void pepe()
 {
@@ -57,16 +69,5 @@ void pepe()
     noFill();
    // bezier(pmouseX - 40, pmouseY + 40, pmouseX , pmouseY + 30, pmouseX +10, pmouseX + 40, pmouseY + 40);
   }
-  if (keyPressed)
-  {
-    if (key == ' ')
-    {
-      background(255);
-      stroke(0);
-      fill(0);
-      textSize(18);
-      text("Space to Clear, Click to Draw", 200, 20);
-      textAlign(CENTER);
-    }
-  }
+  
 }

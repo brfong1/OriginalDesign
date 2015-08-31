@@ -31,10 +31,22 @@ public void draw()
 
 public void lines()
 {
-  textSize(18);
-  fill(0);
-  textAlign(CENTER);
-  text("Space to Clear, Click to Draw", 200, 20);
+  if (keyPressed)
+  {
+    if (key == ' ')
+    {
+      background(255);
+      stroke(0);
+      fill(0);
+      textSize(18);
+      text("Space to Clear, Click to Draw", 200, 20);
+      textAlign(CENTER);
+    }
+  }
+  // textSize(18);
+  // fill(0);
+  // textAlign(CENTER);
+  // text("Space to Clear, Click to Draw", 200, 20);
 }
 public void pepe()
 {
@@ -73,18 +85,7 @@ public void pepe()
     noFill();
    // bezier(pmouseX - 40, pmouseY + 40, pmouseX , pmouseY + 30, pmouseX +10, pmouseX + 40, pmouseY + 40);
   }
-  if (keyPressed)
-  {
-    if (key == ' ')
-    {
-      background(255);
-      stroke(0);
-      fill(0);
-      textSize(18);
-      text("Space to Clear, Click to Draw", 200, 20);
-      textAlign(CENTER);
-    }
-  }
+  
 }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "OriginalDesign" };
