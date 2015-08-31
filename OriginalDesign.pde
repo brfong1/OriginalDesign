@@ -10,10 +10,10 @@ void setup()
 void draw()
 {
   pepe();
-  lines();
+  line();
 }
 
-void lines()
+void line()
 {
   if (keyPressed)
   {
@@ -27,10 +27,6 @@ void lines()
       textAlign(CENTER);
     }
   }
-  // textSize(18);
-  // fill(0);
-  // textAlign(CENTER);
-  // text("Space to Clear, Click to Draw", 200, 20);
 }
 void pepe()
 {
