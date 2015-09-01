@@ -10,10 +10,10 @@ void setup()
 void draw()
 {
   pepe();
-  line();
+  lines();
 }
 
-void line()
+void lines()
 {
   if (keyPressed)
   {
