@@ -26,7 +26,7 @@ public void setup()
 public void draw()
 {
   // pepe();
-  line();
+  // line();
 }
 
 public void line()
