@@ -1,16 +1,16 @@
 void setup()
 {
-  // background(255);
-  // size(400, 400);
-  // textSize(18);
-  // fill(0);
-  // textAlign(CENTER);
-  // text("Space to Clear, Click to Draw", 200, 20);
+  background(255);
+  size(400, 400);
+  textSize(18);
+  fill(0);
+  textAlign(CENTER);
+  text("Space to Clear, Click to Draw", 200, 20);
 }   
 void draw()
 {
-  // pepe();
-  // line();
+  pepe();
+  line();
 }
 
 void line()
