@@ -25,11 +25,11 @@ public void setup()
 }   
 public void draw()
 {
-  pepe();
-  lines();
+  // pepe();
+  line();
 }
 
-public void lines()
+public void line()
 {
   if (keyPressed)
   {
@@ -43,10 +43,6 @@ public void lines()
       textAlign(CENTER);
     }
   }
-  // textSize(18);
-  // fill(0);
-  // textAlign(CENTER);
-  // text("Space to Clear, Click to Draw", 200, 20);
 }
 public void pepe()
 {

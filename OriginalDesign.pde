@@ -9,7 +9,7 @@ void setup()
 }   
 void draw()
 {
-  pepe();
+  // pepe();
   line();
 }
 
