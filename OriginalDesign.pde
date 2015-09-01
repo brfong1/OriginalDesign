@@ -9,8 +9,8 @@ void setup()
 }   
 void draw()
 {
-  pepe();
-  line();
+  // pepe();
+  // line();
 }
 
 void line()
